@@ -1,0 +1,58 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    background-image: url("Assets/table.png");
+    background-size: cover;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    height: 90vh;
+
+}
+
+.ace {
+    padding: 0px;
+}
+
+.ace img {
+    rotate: -45deg;
+}
+
+
+.jack {
+    padding: 0px;
+}
+
+.jack img {
+    rotate: 45deg;
+}
+
+.container {
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    margin: 0;
+}
+
+.container h1 {
+    color: goldenrod;
+}
+
+.container #message-el {
+    font-style: italic;
+}
+
+.container button {
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
